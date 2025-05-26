@@ -22,7 +22,7 @@ const config = {
       // split: false,
       pages: 'build',       // 기본값: GitHub Pages용 정적 파일 출력 경로
       assets: 'build',
-      fallback: null
+      fallback: '404.html'
     }),
     
   },
