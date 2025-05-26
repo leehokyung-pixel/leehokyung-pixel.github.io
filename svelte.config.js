@@ -14,12 +14,12 @@ const config = {
     adapter: adapter({
       // if true, will create a Netlify Edge Function rather
       // than using standard Node-based functions
-      edge: false,
+      // edge: false,
 
       // if true, will split your app into multiple functions
       // instead of creating a single one for the entire app.
       // if `edge` is true, this option cannot be used
-      split: false,
+      // split: false,
       pages: 'build',       // 기본값: GitHub Pages용 정적 파일 출력 경로
       assets: 'build',
       fallback: null
