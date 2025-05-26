@@ -20,7 +20,11 @@ const config = {
       // instead of creating a single one for the entire app.
       // if `edge` is true, this option cannot be used
       split: false,
+      pages: 'build',       // 기본값: GitHub Pages용 정적 파일 출력 경로
+      assets: 'build',
+      fallback: null
     }),
+    
   },
 };
 
